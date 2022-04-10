@@ -31,10 +31,8 @@ if (minutes < 10) {
 }
 
 currentTime.innerHTML = `${hour}:${minutes}`;
-
-date.innerHTML = `${now.getMonth() + 1}/${
-  now.getDay() + 1
-}/${now.getFullYear()}`;
+let currentDate = now.getDate();
+date.innerHTML = `${now.getMonth() + 1}/${currentDate}/${now.getFullYear()}`;
 
 function updateTemp(response) {
   let currentTemp = document.querySelector("#current-temp");
