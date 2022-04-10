@@ -1,0 +1,68 @@
+form {
+  margin-top: 15px;
+  text-align: center;
+}
+button {
+  display: block;
+  background-color: #ffe9d6;
+  color: #7b6079;
+  padding: 3px 3px;
+  border: #7b6079 solid 2px;
+  font-size: 12px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.main {
+  background-color: #de8971;
+  border: #9ba0a7 solid 4px;
+  border-radius: 10px;
+  color: #7b6079;
+  font-family: "Poppins", sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.searchBar {
+  background-color: #fdf9f6;
+  color: #7b6079;
+  padding: 2px 20px;
+  border: #7b6079 solid 2px;
+  border-radius: 5px;
+}
+.currentInfo {
+  margin: 5px;
+  padding: 0px;
+  text-align: left;
+  background: #a7d0cd;
+  font-size: 12px;
+  max-width: 100%;
+}
+#city {
+  margin-bottom: 0;
+}
+#current-temp {
+  font-size: 30px;
+}
+#unit {
+  position: relative;
+  top: -12px;
+  font-size: 15px;
+  color: #7b6079;
+}
+#unitF,
+#unitC {
+  color: #7b6079;
+}
+.current-icon {
+  font-size: 55px;
+  text-align: center;
+  padding-top: 10%;
+}
+.days {
+  background: #ffe9d6;
+  margin: 5px;
+  border-radius: 0.25rem;
+  font-size: 13px;
+  padding: 2px 2px;
+}
